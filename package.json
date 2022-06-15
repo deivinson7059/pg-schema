@@ -1,0 +1,20 @@
+{
+  "name": "pg-schema",
+  "version": "1.0.0",
+  "description": "pg-schema",
+  "main": "schemaGenerator.js",
+  "scripts": {
+    "schema": "node schemaGenerator.js"
+  },
+  "keywords": [],
+  "author": "Danisoft sas",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.8.2",
+    "express": "^4.17.2",
+    "typescript-json-schema": "^0.52.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
